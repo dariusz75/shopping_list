@@ -1,7 +1,12 @@
+body {
+	background-color: #5B99AA;
+}
+
+
 #wrapper {
+	background-color: white; 
 	width: 500px;
 	height: 800px;
-	border: 1px solid black;
 	margin: 0 auto 0 auto;
 }
 
@@ -9,6 +14,7 @@ header {
 	width: 100%;
 	background-color: #819A91;
 	height: 65px;
+	padding-top: 15px;
 	-webkit-box-shadow: 0 4px 4px -2px #000000;
    -moz-box-shadow: 0 4px 4px -2px #000000;
         box-shadow: 0 4px 4px -2px #000000;
@@ -21,7 +27,7 @@ h1 {
     font-weight: 700;
     letter-spacing: 0.03em;
      -webkit-font-smoothing: antialiased;
-	padding: 15 0 0 0;
+	padding: 0;
 	margin: 0 auto 0 auto;
 	text-align: center;
 	color: #123F49;
@@ -37,7 +43,7 @@ h1 {
 }
 
 #add-item {
-	width: 350px;
+	width: 340px;
 	height: 35px;
 	background-color: white;
 	-webkit-border-radius: 10px;
@@ -72,13 +78,7 @@ h1 {
 	margin: 27px 27px 0 0;
 }
 
-#plus p {
-	font-size: 45px;
-	padding: 0;
-	margin-top: -16px;
-	text-align: center;
 
-}
 
 p {
 	font-family: 'Lato', sans-serif;
@@ -90,6 +90,17 @@ p {
 	font-size: 25px;
 	text-align: center;
 	color: #123F49;
+}
+
+input[type=text] {
+font-size: 20px;
+text-align: center;
+}
+
+input[type=submit] {
+font-size: 25px;
+padding: 0;
+margin: 0;
 }
 
 .section-bottom {
