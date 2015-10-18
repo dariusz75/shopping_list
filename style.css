@@ -104,30 +104,13 @@ margin: 0;
 }
 
 .section-bottom {
-	width: 100%;
+	width: 90%;
 	height: 290px;
-	margin: 0 0 0 0;
+	margin: 0 auto 0 auto;
 	padding: 0;
-	float: left;
 }
 
-#left-side {
-	width: 350px;
-	height: 250px;
-	padding: 0;
-	margin: 27px 0 0 27px;
-	float: left;
 
-}
-
-#right-side {
-	width: 85px;
-	height: 250px;
-	padding: 0;
-	margin: 27px 27px 0 0;
-	float: right;
-
-}
 
 .items-list {
 	padding: 0;
@@ -135,27 +118,43 @@ margin: 0;
 }
 
 .items-list li{
+	width: 450px;
+	
+	
+	
+	padding: 0;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	
+}
+
+.item {
+	background-color: #C2DCDD;
+	text-align: center;
 	width: 350px;
 	height: 35px;
-	background-color: #C2DCDD;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	padding: 0;
-	margin: 10px 0 0 0;
-	text-decoration: none;
-	list-style-type: none;
 	float: left;
+	
 }
 
-.done-list {
-	padding: 0;
-	margin: 0;
+.item_lined {
+	background-color: #C2DCDD;
+	text-align: center;
+	width: 350px;
+	height: 35px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	float: left;
-	color: grey;
+	text-decoration: line-through;
 }
 
-.done-list li {
+.done_list{
 	width: 35px;
 	height: 35px;
 	background-color: #C2DCDD;
@@ -163,20 +162,30 @@ margin: 0;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	padding: 0;
-	margin: 10px 0 0 0;
+	margin: 0 10px 0 0;
 	text-decoration: none;
 	list-style-type: none;
-	
-}
-
-.delete-list {
-	padding: 0;
-	margin: 0;
 	float: right;
-	color: grey;
+	
 }
 
-.delete-list li {
+.done_checked{
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 0;
+	margin: 0 10px 0 0;
+	text-decoration: none;
+	list-style-type: none;
+	float: right;
+	
+}
+
+
+.delete_list{
 	width: 35px;
 	height: 35px;
 	background-color: #C2DCDD;
@@ -184,8 +193,11 @@ margin: 0;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	padding: 0;
-	margin: 10px 0 0 0;
+	margin: 0;
 	text-decoration: none;
 	list-style-type: none;
+	float: right;
 	
 }
+
+
